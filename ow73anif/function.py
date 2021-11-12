@@ -6,4 +6,4 @@ def imshow(X, resize=None):
     image=image.fromarray(X)
     if resize!= None:
         img=image.resize(resize)
-    return plt.imshow(img)
+    return img.show()
