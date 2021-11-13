@@ -6,5 +6,5 @@ import matplotlib.pyplot as plt
 def imshow(X, resize=None):
     image=Image.fromarray(X)
     if resize!= None:
-        img=image.resize(resize)
-    return plt.imshow(img)
+        resized_img=image.resize(resize)
+    return plt.imshow(resized_img)
